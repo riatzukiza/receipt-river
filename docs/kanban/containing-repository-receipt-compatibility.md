@@ -134,8 +134,18 @@ repair pass. Independent local planning assessment identified the two context
 shape/diagnostic ambiguities above; its three-point estimate remains provisional
 and supplies no native provider approval or readiness.
 
-This personal fork currently has no CI/review workflow or GitHub Actions secret
-names. Missing MiMo execution surface is not a quota exclusion or approval.
+Review-route preparation subsequently adds the pinned shared eta-mu caller,
+forwarding the already installed publisher through encrypted Actions secrets.
+It runs the package's existing baseline commands; it introduces no compatibility
+behavior or new gate semantics. The nine-case real Git fixture verifies that
+only the two generated reviewer directories are ignored while tracked source,
+tracked receipts and unrelated untracked paths remain visible. Actionlint
+passes. Native hosted execution, complete-input review and convergence remain
+separate requirements; this preparation does not admit the card to Ready.
+
+At the original planning head, this personal fork had no CI/review workflow or
+GitHub Actions secret names. A missing MiMo execution surface is not a quota
+exclusion or approval.
 Qualify a supported canonical review route and mandatory gates before claiming
 planning/code convergence; no fabricated provider identity or local waiver.
 No existing board configuration/cards were found, so this first manual incoming
