@@ -34,9 +34,12 @@ native publication; candidate package commands have no signing-key environment.
 Secret metadata and verified App/installation identity can be recorded; secret
 contents never enter provenance or logs.
 
-Only `/.opencode/review-evidence/` and `/.review-context/` are added to ignore
-rules. This avoids the known Git-quoted Unicode generated-path problem in the
-currently qualified receiver. It leaves other untracked files and tracked
+The generated reviewer directories `/.opencode/review-evidence/` and
+`/.review-context/` are ignored. This avoids the known Git-quoted Unicode
+generated-path problem in the currently qualified receiver. The first actual
+hosted run also created `/.clj-kondo/.cache/`; that generated cache is now
+ignored at its exact path. The enclosing lint configuration stays visible.
+These rules leave other untracked files and tracked
 source/provenance modifications visible. It is caller preparation, not repair
 or settlement of the open shared-receiver finding.
 
@@ -55,3 +58,21 @@ gate pass or grant approval. The planning review must cover this caller, ignore
 rules, this document, the complete card and every receipt/reflection suffix.
 Original receipt/reflection prefixes remain immutable. Only current-head
 qualified planning review permits the later native Rheos admission and RED.
+
+## First hosted observation
+
+Run37734293522 on exact35237a3aec20b2c07bf655f9fa1093a292d88a22 executed
+all six configured gates: diff stat, diff hygiene, install, lint and build
+returned0, while the existing test command returned1. Its completed producer
+job was SUCCESS, but actual artifact11531365779 records result FAILURE and
+clean checkout FALSE because the lint cache was untracked. The package test
+compiled82files with0compilerwarnings, then crashed in discovery-test with
+`TypeError: eta_mu.receipt_river.extern.git.exec_at.cljs$core$IFn$_invoke$arity$2
+is not a function`. No complete test count or compatibility pass is claimed.
+The unlocked installation resolved shadow-cljs3.5.5 for this run.
+
+The generated-cache rule repairs only the observed checkout hygiene issue.
+The actual test failure remains a delivery blocker and is recorded for later
+inventory review; no discovery source or fixture is silently changed, skipped
+or converted to passing. Fresh current-head hosted execution must demonstrate
+the effect of the cache rule, including any remaining test failure.

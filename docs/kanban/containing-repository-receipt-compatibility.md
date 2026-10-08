@@ -1,10 +1,11 @@
 ---
-uuid: 4caf6f31-9e54-49e0-b6fc-34d2d8414ff0
+uuid: "4caf6f31-9e54-49e0-b6fc-34d2d8414ff0"
 title: "Read historical receipts in their containing repository context"
-status: incoming
-priority: P1
-points: 3
-labels: receipt-river, compatibility, cephalon
+status: "incoming"
+priority: "P1"
+points: "3"
+labels: "receipt-river, compatibility, cephalon"
+write-id: "1791438931184-0.1h5rhopl332wlvqkf8k"
 ---
 
 # Read historical receipts in their containing repository context
@@ -167,3 +168,7 @@ reviewed shared receiver used by the physical field work. It does not implement
 or complete encounter -> physical graph/field -> separate persistent mood and
 attention -> associative recall -> choice -> observed outcome -> memory, social
 relationships or character evolution. Do not replace that goal with receipts.
+
+---
+Recorded newly discovered work for a later batch: baseline discovery-test crash, card7d593487-8163-41e4-97f2-63a9a4bb87fb. Actual hosted run37734293522/head35237a3aec20b2c07bf655f9fa1093a292d88a22/artifact11531365779 has test exit1 at Git exec_at arity2 property; complete test success is not established. Proposed fixture-call-shape cause remains unverified. Accepted fixed inventory requires the human scope choice before implementation; no test/source fix, skip or Ready. Exact generated clj-kondo cache hygiene is separate current review-route maintenance. Original receipt/reflection prefixes remain immutable. Source delivery remains blocked by the mandatory test; B1/B2/B3 character slice remains unimplemented.
+---
