@@ -45,6 +45,11 @@ never a field silently inserted into the historical receipt or a new attestation
   **string** argument; the API edge constructs that pure map. A JS object is
   not implicitly converted into a CLJS map and remains an invalid context.
   Preserve the existing CLJS result representation; do not add a second API.
+  The API edge owns checking that third argument is a nonblank string before
+  constructing the map. Nil, blank and non-string arguments are refused as
+  attribution input: construct no map and retain context-free validation/errors,
+  without adding attribution or throwing a new protocol error. The pure law
+  independently rejects malformed or extra-key context maps supplied directly.
 - Context has a nonblank repository path supplied by an outer reader from its
   actual containing file/checkout. Document this as an attribution input, not
   authenticated repository identity, ancestry or ownership proof.

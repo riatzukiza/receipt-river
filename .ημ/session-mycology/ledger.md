@@ -10,3 +10,9 @@
 - Receipt `cephalon-containing-repository-context-clarified-20261008T0006`; efficiency0.79, friction0.21, skill-candidate0.15.
 - Independent read-only planning identified exact input/output representation and original-error retention ambiguities. Freeze those before RED; shared required-key/schema facts remain strict, originals remain unchanged.
 - Actual immutable receiver rootreceipts suffix hash matches and each original reports only missingrepo. Initial wrong source path was refused, not proof. No native approval, readiness, behavioral pass or source/runtime implementation. No spore.
+
+## 2026-10-08T00:13:19.269Z — native planning context ownership correction
+
+- Receipt `cephalon-containing-context-native-plan-p3-fixed-20261008T0013`; efficiency0.81, friction0.18, skill-candidate0.13.
+- Native CodeRabbit P3 body item identified a real unspecified validation owner. API edge refuses unusable path input before constructing pure context; pure law independently validates direct maps. Preserve original diagnostics, schema facts and historical bytes.
+- Planning only: no behavioral pass/source/nativeReady/runtime claim. Fresh current-head review and supported MiMo route remain required; no spore.
