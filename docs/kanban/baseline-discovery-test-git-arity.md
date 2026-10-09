@@ -52,6 +52,9 @@ migration, optional-test classification, runtime changes and character features.
    or records a different verified cause before any repair.
 3. The existing complete `pnpm test` passes with its bounded-concurrency test
    and all original assertions still executed; no skip or selection workaround.
+   The replacement retains both arity-2 and arity-3 forms, including the compiled
+   `cljs$core$IFn$_invoke$arity$2` entry used by the actual discovery caller.
+   Inspect the compiled entries and preserve the in-flight counter and 5 ms delay.
 4. Existing build, lint and exact-clean-head hosted gates pass on the actual
    candidate. Publish complete review input and retain native review and gate
    evidence before qualification.

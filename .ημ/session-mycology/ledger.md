@@ -61,3 +61,9 @@
 - Receipt `cephalon-receipt-fixture-authorized-scope-20261009`; efficiency0.82, friction0.24, skillcandidate0.13; spore:none.
 - The actual human reply adds only the existing one-point fixture prerequisite. Preserve earlier pending observations and append the new authority; do not ask again.
 - Planning review may continue into implementation in the same PR while the mandatory baseline test stays honestly red. Preserve original test assertions and production behavior. B1/B2/B3 remain the finish contract.
+
+## 2026-10-09T04:57:28.836Z — native planning findings and owning full-suite RED
+
+- Receipt `cephalon-receipt-fixture-planning-findings-fixed-20261009`; efficiency0.79, friction0.28, skillcandidate0.14; spore:none.
+- Fresh native automatic review supersedes a conservative manual-request expectation. Fix the actual acceptance/Markdown concerns, retain COMMENTED and included allowance truthfully, and deduplicate current requests.
+- Actual pnpm process version differs from the tool launcher; record both. Full suite still crashes for the proven shape defect; producer success and successful build/lint do not relabel it GREEN. No source patch before qualified planning/native Ready.

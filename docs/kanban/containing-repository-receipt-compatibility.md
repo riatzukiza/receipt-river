@@ -171,4 +171,4 @@ relationships or character evolution. Do not replace that goal with receipts.
 
 ---
 Recorded newly discovered work for a later batch: baseline discovery-test crash, card7d593487-8163-41e4-97f2-63a9a4bb87fb. Actual hosted run37734293522/head35237a3aec20b2c07bf655f9fa1093a292d88a22/artifact11531365779 has test exit1 at Git exec_at arity2 property; complete test success is not established. Proposed fixture-call-shape cause remains unverified. Accepted fixed inventory requires the human scope choice before implementation; no test/source fix, skip or Ready. Exact generated clj-kondo cache hygiene is separate current review-route maintenance. Original receipt/reflection prefixes remain immutable. Source delivery remains blocked by the mandatory test; B1/B2/B3 character slice remains unimplemented.
----
+***
