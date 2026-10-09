@@ -29,7 +29,7 @@ jobs:
         if [[ "$install_status" == "0" ]]; then
           run_gate lint pnpm lint:kondo
           run_gate test pnpm test
-          run_gate build pnpm build
+          run_gate build bash -c 'pnpm build && pnpm test:public-api'
         else
           echo "lint=125" >> "$statuses"
           echo "test=125" >> "$statuses"

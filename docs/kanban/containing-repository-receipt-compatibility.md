@@ -1,11 +1,11 @@
 ---
 uuid: "4caf6f31-9e54-49e0-b6fc-34d2d8414ff0"
 title: "Read historical receipts in their containing repository context"
-status: "in_progress"
+status: "review"
 priority: "P1"
 points: "3"
 labels: "receipt-river, compatibility, cephalon"
-write-id: "1791526049159-0.f53pb7jqobnimvlf57x"
+write-id: "1791527149865-0.jzzxncwdi7o63fzu0o"
 ---
 
 # Read historical receipts in their containing repository context
@@ -172,3 +172,8 @@ relationships or character evolution. Do not replace that goal with receipts.
 ---
 Recorded newly discovered work for a later batch: baseline discovery-test crash, card7d593487-8163-41e4-97f2-63a9a4bb87fb. Actual hosted run37734293522/head35237a3aec20b2c07bf655f9fa1093a292d88a22/artifact11531365779 has test exit1 at Git exec_at arity2 property; complete test success is not established. Proposed fixture-call-shape cause remains unverified. Accepted fixed inventory requires the human scope choice before implementation; no test/source fix, skip or Ready. Exact generated clj-kondo cache hygiene is separate current review-route maintenance. Original receipt/reflection prefixes remain immutable. Source delivery remains blocked by the mandatory test; B1/B2/B3 character slice remains unimplemented.
 ***
+
+
+Actual owning local RED32tests231assertions39failures0errors and built public old API refusal retained in ee4c7e3. GREEN32/231zero and built public validateLine15casesPASS now implement the reviewed explicit string context -> closed pure map -> separately derived attribution path. Strict version1/explicit nil/other errors and original10437byte receiver suffix remain intact; original strict schema block byte-identical. Pure law moved to .cljc before API/CLI adapters. Normal lint0errors0warnings/externPASS and actionlint/diffPASS. The only retired own .cljs clj-kondo namespace cache was archived/removed after rename; no lint suppression. Local pnpm childNode22.18.0 differs from hosted22.20.0; fresh current source CI and native source reviews still owed. Fixture52341b2 unchanged, assertions preserved. No source merge/cardDone/receiver acceptance/B1B2B3 or deployment claim. Source evidence .ημ/review-evidence/receipt-context-compatibility-green-20261009.json follows this native readback.
+
+---
