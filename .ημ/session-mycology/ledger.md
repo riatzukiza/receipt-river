@@ -112,3 +112,12 @@ Origin: cephalon-receipt-timestamp-append-correction-20261009. CodeRabbit review
   spore: none
   receipt-refs: receipt-source-qualified-fixture-closeout-20261009
   note: Finish qualified MERGE instead of reporting approval as the end. Preserve original source and nativecard/eventhistory; downstreamconsumer acceptance is separate. Existing evidence/settlement lessons suffice, no spore or promotion.
+
+- ts: "2026-10-09T08:09:45.131274Z"
+  origin: receipt-no-git-context-RED-20261009
+  p-efficiency: 0.75
+  p-friction: 0.3
+  p-skill-candidate: 0.1
+  spore: none
+  receipt-refs: receipt-no-git-context-RED-20261009
+  note: File routing fallback is not resolved repository evidence. Prove actual Git failure and preserve context-free diagnostics before repair. Setup/help-only exit0 is not execution proof.
