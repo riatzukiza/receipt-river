@@ -157,3 +157,44 @@
       (is (= (str/split-lines (frozen-suffix)) (mapv :line @observed)))
       (finally
         (.rmSync fs root #js {:recursive true :force true})))))
+
+(deftest ^:async existing-cli-keeps-fallback-directory-context-free-test
+  (let [root (.mkdtempSync fs (path/join (.tmpdir os) "receipt-no-git-"))
+        file (path/join root "receipts.edn")
+        suffix (frozen-suffix)
+        observed (atom [])
+        exit-code (atom nil)
+        original api/validate-line
+        recording-validator
+        (fn recording-validator
+          ([line number] (recording-validator line number nil))
+          ([line number containing]
+           (let [result (apply original [line number containing])]
+             (swap! observed conj {:containing containing :result result})
+             result)))]
+    (try
+      (.writeFileSync fs file suffix)
+      (let [resolution (await (git/exec-at root ["rev-parse" "--show-toplevel"]))]
+        ;; Exercise actual Git failure, including failure to start Git. An
+        ;; inherited Git redirect must not turn this fixture into a checkout.
+        (when (zero? (:exit resolution))
+          (throw (ex-info "Non-Git fixture unexpectedly resolved a repository"
+                          {:root root :resolved (:stdout resolution)})))
+        (is (not (zero? (:exit resolution)))))
+      (with-redefs [runtime/current-directory (constantly root)
+                    runtime/exit! #(reset! exit-code %)
+                    api/validate-line recording-validator]
+        (await (cli/handle {:args ["validate" "3"]})))
+      (is (= 1 @exit-code))
+      (is (= [nil nil nil] (mapv :containing @observed)))
+      (is (= [1 2 3] (mapv #(get-in % [:result :line-number]) @observed)))
+      (doseq [[index {:keys [result]}] (map-indexed vector @observed)]
+        (let [line (nth (str/split-lines suffix) index)]
+          (is (false? (:ok result)))
+          (is (= [missing-repo-error] (:errors result)))
+          (is (not (contains? result :source/repository)))
+          (is (= (edn/parse-line line) (:event result)))
+          (is (= line (:line result)))))
+      (is (= suffix (.readFileSync fs file "utf8")))
+      (finally
+        (.rmSync fs root #js {:recursive true :force true})))))
