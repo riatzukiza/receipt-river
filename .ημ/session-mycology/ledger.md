@@ -121,3 +121,12 @@ Origin: cephalon-receipt-timestamp-append-correction-20261009. CodeRabbit review
   spore: none
   receipt-refs: receipt-no-git-context-RED-20261009
   note: File routing fallback is not resolved repository evidence. Prove actual Git failure and preserve context-free diagnostics before repair. Setup/help-only exit0 is not execution proof.
+
+- ts: "2026-10-09T08:12:19.952133Z"
+  origin: receipt-no-git-context-GREEN-20261009
+  p-efficiency: 0.85
+  p-friction: 0.15
+  p-skill-candidate: 0.1
+  spore: none
+  receipt-refs: receipt-no-git-context-GREEN-20261009
+  note: Keep file-location fallback separate from successfully resolved attribution. Source ownership and real consumer negatives prevent permissive integration drift. Existing lessons suffice, no spore/promotion.

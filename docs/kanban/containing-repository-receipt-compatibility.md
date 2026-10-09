@@ -1,11 +1,11 @@
 ---
 uuid: "4caf6f31-9e54-49e0-b6fc-34d2d8414ff0"
 title: "Read historical receipts in their containing repository context"
-status: "in_progress"
+status: "review"
 priority: "P1"
 points: "3"
 labels: "receipt-river, compatibility, cephalon"
-write-id: "1791533332909-0.511dg45qihwkqlx3dha"
+write-id: "1791533539487-0.zbhzge26jdh1klvwe48"
 ---
 
 # Read historical receipts in their containing repository context
@@ -179,5 +179,7 @@ Actual owning local RED32tests231assertions39failures0errors and built public ol
 Owning source is qualified and merged in personal PR1 at5eeb77e035c17160416d0a092415b39b3de55133, exact reviewed67 tree, MiMo5467136899 full38inputs/41pages and all6 hosted gates0. Consumer criterion6 remains outstanding: eta-mu PR8 must consume the exact API/CLI/pure.cljc inputs and prove actual compiled default200 route contextual interpretation of original256-258 while preserving baseline refusals, raw bytes and context-free diagnostics. This card remainsReview; no whole-journal PASS, receiver acceptance or character completion.
 
 Receiver CodeRabbit finding4227957554/review5467402440 at7ccf3ba reveals fallback cwd incorrectly supplied as containing-repository context after actual Git root resolution failure. Necessary repair is within existing reviewed actual-checkout/no-default scope. Owning source RED33tests251assertions11failures0errors/0compilerwarnings confirms false derived attribution and exit0 in real non-Git directory. Initial package-manager11.8/no-TTY and misplaced Rheosflags/help-only invocations did not execute tests or board writes. Separate fallback file route from verified attribution; preserve original receipts/schema and fixtureDone. Qualify owning repair, then consume exact source and prove receiver negative. Consumer acceptance/B1B2B3 remain outstanding; no runtime/deployment.
+
+Owning fallback repair GREEN33tests251assertions0failures0errors,0compilerwarnings; normal lint0errors0warnings/externPASS; release59files1compiled0warnings; builtESMpublic15casesPASS. resolve-repository-context keeps fallback file root separate from actual successfulGit containing path; validate passesnil onfailedGit. Status/tail/append retain existingdirectoryfallback. RealGitpositive stillpasses; realnonGit3originalrows nowexit1/missingrepo/noattribution/rawunchanged. API/purelaw/schema unchanged. Source code-reviewqualification and actualreceivernegative/consumption/qualification owed; notwholejournalPASS orB1B2B3completion. Initial receiptreadback iteratorfor-of TypeError was corrected with nativekeys.next lookup, owning releasedreader confirmsnewrow22valid; nohistoricalrowrewrite.
 
 ---

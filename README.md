@@ -23,7 +23,10 @@ retroactively.
 The exported `validateLine(line, lineNumber)` retains its original strict
 context-free behavior. `validateLine(line, lineNumber, containingRepositoryPath)`
 accepts a nonblank string path supplied by the containing file's reader. The
-existing `eta-mu receipt validate` command supplies its resolved checkout root.
+existing `eta-mu receipt validate` command supplies its checkout root only when
+Git resolves that root successfully. On Git failure it still reads the fallback
+working directory's ledger, with no repository attribution context: a missing
+`:repo` remains a validation error.
 The pure `record-errors` law also accepts the closed map
 `{:repository/path "<containing path>"}` as its optional second argument.
 
