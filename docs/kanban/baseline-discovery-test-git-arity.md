@@ -1,11 +1,11 @@
 ---
 uuid: 7d593487-8163-41e4-97f2-63a9a4bb87fb
 title: "Restore the compiled discovery test's Git boundary fixture"
-status: incoming
+status: "review"
 priority: P1
 points: 1
 labels: receipt-river, tests, later-batch
-write-id: "1791521081950-0.uruw8jjijtlml2ax8h"
+write-id: "1791526047967-0.zyyc20erdlgxypxl7hi"
 ---
 
 # Restore the compiled discovery test's Git boundary fixture
@@ -78,5 +78,7 @@ run would not prove all future dependency versions work.
 Causal diagnostic follow-up 2026-10-08: actual current hosted artifact11531594218 (ZIP SHA2566232419d824870cd9eb053ba77035cd32e41ff21e3b278e664fb7f1b284dc7c1) binds head6370ff968841115e681e2b21d80277fd0f0a0289/base154440f3c997aa9208194bba59b5edbef3654f78, exact/clean, all6gates attempted, test exit1. Its Node22.20.0 stack calls exec_at.cljs$core$IFn$_invoke$arity$2 and reports that property is not a function. The source call, two/three-arity production function and single-arity delayed-git replacement are byte-identical between this head, base and working tree; Git history retains the fixture since initial extraction7c7c62343fea0241ac545e37f14e57ab344bfa30. No prior passing baseline was established. A bounded separately compiled representation probe using existing cached ClojureScript1.12.145/static-fns true/optimizations none on localNode24.14.1 reproduced the same missing-arity-property TypeError with the single-arity replacement; original control and restoration succeed, zero production Git processes. This proves the proposed call-shape mechanism, not the complete owning test, exact hosted environment or a repaired suite. Preserve production timeout/concurrency semantics and original full-suite assertions when a qualified fixture repair is admitted. Proof .ημ/review-evidence/receipt-discovery-arity-causal-diagnostic-20261008.json SHA2568f638d09281c643609c3e1eae3018c3daf0244b82822f0a54e1f22e6ef3020c2. The first private launch used a wrong generated-bootstrap cwd and failed MODULE_NOT_FOUND; retained unchanged output ran correctly from /, not production verification. Free space15,985,807,360bytes is below20GiB; reused existing compiler/classpath only, no full checkout or dependency install. Scope choice remains pending; this card staysIncoming, no owning test/source patch, new estimate, Ready, compatibility implementation, skipped test, provider retry or character runtime change.
 
 Scope authorization 2026-10-09 UTC: the human explicitly answered Include the minimal fixture repair to native question call_968cb17bde984e0c879e6619f31c3d18 in the Cephalon character-design chat. This adds only this one-point baseline test-double prerequisite to the accepted B1/B2/B3 milestone; the earlier pending-scope observations remain historical bytes. The retained causal diagnostic 8f638d09281c643609c3e1eae3018c3daf0244b82822f0a54e1f22e6ef3020c2 proves the compiled single-arity replacement mismatch. Proposed repair is a named two/three-arity delayed test function retaining the same promise, 5ms delay, nine repositories, and all three existing bounded-concurrency assertions. No production Git/discovery/timeout/attribution behavior changes. Complete planning review and native Ready precede repair; then execute unchanged full-suite RED, minimal fixture GREEN, all owning build/lint/test and exact hosted gates, current-input code review and guarded MERGE. This does not complete character encounter, mood or automatic recall and does not resume the paused heartbeat.
+
+Current exact planning approval MiMo5466026271 and CodeRabbit6075302385, with full5466224006 and actual map supplement6075235619, covers all19 inputs. Native Ready/InProgress occurred before minimal repair. Actual pnpm test25tests88assertions0failures0errors, compiled arity2/3 entries both present, 5ms and all original concurrency assertions retained; production sources byte-identical. pnpm build0/0compilerwarnings; lint0errors0warnings/externPASS. Retained old full-suiteRED remains failure. Proof .ημ/review-evidence/receipt-fixture-native-admission-and-green-20261009.json. Fresh exact hosted code gates/review/guardedMERGE still owed; this is not source approval or character B1B2B3 completion.
 
 ---
