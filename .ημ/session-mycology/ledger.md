@@ -103,3 +103,12 @@ Origin: `cephalon-receipt-explicit-staging-correction-20261009`. p-efficiency0.6
 ## 2026-10-09T07:05:16.871Z — append-only timestamp correction
 
 Origin: cephalon-receipt-timestamp-append-correction-20261009. CodeRabbit review5466821408/comment4227491284 correctly found that historical rows17/18 use +00:00 where Receipt River's strict timestamp law requires Z. Following the human's append-correction instruction, retained all46852 original journal bytes and14547 reflection bytes, including both invalid rows, and appended distinct correction records19/20. Their current recording timestamp ends in Z; each retains original source head, path, ordinal, origin, timestamp and raw-line SHA256, with separately derived normalized occurrence timestamp. All other original payload fields remain equal. Owning pure law confirms original contextual timestamp errors remain and both new records validate in actual containing-repository context; context-free missing-repo diagnostics remain. No timestamp compatibility, fold, historical rewrite or whole-journal PASS claim. Independent review/settlement and exact-head qualification remain owed; source/receiver/character B1B2B3 are not delivered. Heartbeat remains paused; no runtime/publication change. No spore.
+
+- ts: "2026-10-09T07:59:37.870554Z"
+  origin: receipt-source-qualified-fixture-closeout-20261009
+  p-efficiency: 0.8
+  p-friction: 0.2
+  p-skill-candidate: 0.1
+  spore: none
+  receipt-refs: receipt-source-qualified-fixture-closeout-20261009
+  note: Finish qualified MERGE instead of reporting approval as the end. Preserve original source and nativecard/eventhistory; downstreamconsumer acceptance is separate. Existing evidence/settlement lessons suffice, no spore or promotion.

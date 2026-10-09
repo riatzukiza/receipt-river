@@ -1,11 +1,11 @@
 ---
 uuid: 7d593487-8163-41e4-97f2-63a9a4bb87fb
 title: "Restore the compiled discovery test's Git boundary fixture"
-status: "review"
+status: "done"
 priority: P1
 points: 1
 labels: receipt-river, tests, later-batch
-write-id: "1791526047967-0.zyyc20erdlgxypxl7hi"
+write-id: "1791531913992-0.ukbtx94bmckcztbchn"
 ---
 
 # Restore the compiled discovery test's Git boundary fixture
@@ -80,5 +80,7 @@ Causal diagnostic follow-up 2026-10-08: actual current hosted artifact1153159421
 Scope authorization 2026-10-09 UTC: the human explicitly answered Include the minimal fixture repair to native question call_968cb17bde984e0c879e6619f31c3d18 in the Cephalon character-design chat. This adds only this one-point baseline test-double prerequisite to the accepted B1/B2/B3 milestone; the earlier pending-scope observations remain historical bytes. The retained causal diagnostic 8f638d09281c643609c3e1eae3018c3daf0244b82822f0a54e1f22e6ef3020c2 proves the compiled single-arity replacement mismatch. Proposed repair is a named two/three-arity delayed test function retaining the same promise, 5ms delay, nine repositories, and all three existing bounded-concurrency assertions. No production Git/discovery/timeout/attribution behavior changes. Complete planning review and native Ready precede repair; then execute unchanged full-suite RED, minimal fixture GREEN, all owning build/lint/test and exact hosted gates, current-input code review and guarded MERGE. This does not complete character encounter, mood or automatic recall and does not resume the paused heartbeat.
 
 Current exact planning approval MiMo5466026271 and CodeRabbit6075302385, with full5466224006 and actual map supplement6075235619, covers all19 inputs. Native Ready/InProgress occurred before minimal repair. Actual pnpm test25tests88assertions0failures0errors, compiled arity2/3 entries both present, 5ms and all original concurrency assertions retained; production sources byte-identical. pnpm build0/0compilerwarnings; lint0errors0warnings/externPASS. Retained old full-suiteRED remains failure. Proof .ημ/review-evidence/receipt-fixture-native-admission-and-green-20261009.json. Fresh exact hosted code gates/review/guardedMERGE still owed; this is not source approval or character B1B2B3 completion.
+
+Qualified source delivered: personal Receipt River PR1 merged5eeb77e035c17160416d0a092415b39b3de55133 at2026-10-09T07:39:40Z, parents154440f3/67f43c2, treeexact reviewed67. Actual MiMoAPPROVED5467136899 assessed all38inputs/41pages; canonical1availablecohort/3PASS/0unsettled PASS and guardedMERGE. Hosted37897227310 actual32tests231assertions0failures0errors/zero lint/compiler warnings/15builtAPIcasesPASS. Original minimal fixture52341b2 preserves delay,counters and all concurrency assertions; old failing evidence remains unchanged. This one-point fixture prerequisite is complete; it does not complete compatibility receiver acceptance or character B1B2B3.
 
 ---
