@@ -20,6 +20,7 @@
         completed (when (and (map? original) (map? fields)) (merge original fields))]
     (when claim
       (if (and (:ok correction-row)
+               (contains? record :event/schema)
                (= :adjudication (get-in record [:event/payload :kind]))
                (= #{:version :line-number :sha256 :fields} (set (keys claim)))
                (= 1 (:version claim))

@@ -45,6 +45,16 @@
   (is (false? (:ok (api/validate-ledger [raw completion completion]))))
   (is (false? (:ok (api/validate-ledger [raw (pr-str {:decisions {:receipt-river/metadata-completion {}}})])))))
 
+(deftest valid-legacy-map-cannot-impersonate-a-versioned-adjudication
+  (let [legacy (assoc original :repo "r" :pi "p"
+                      :event/payload {:kind :adjudication
+                                      :decisions {:receipt-river/metadata-completion
+                                                  {:version 1 :line-number 1
+                                                   :sha256 (crypto/short-sha256 raw 64)
+                                                   :fields {:repo "r" :pi "p"}}}})]
+    (is (:ok (api/validate-line (pr-str legacy) 2)))
+    (is (false? (:ok (api/validate-ledger [raw (pr-str legacy)]))))))
+
 (deftest malformed-semantic-records-cannot-be-completed
   (let [bad (pr-str (assoc original :kind :made-up))
         fix (correction 1 (crypto/short-sha256 bad 64) {:repo "r" :pi "p"})]
