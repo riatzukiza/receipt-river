@@ -246,7 +246,9 @@
         in-flight (atom 0)
         maximum-in-flight (atom 0)
         delayed-git
-        (fn [_path args]
+        (fn delayed-git
+          ([git-path args] (delayed-git git-path args nil))
+          ([_path args _options]
           (let [active (swap! in-flight inc)
                 stdout (if (= ["rev-parse" "--git-dir"] (vec args))
                          ".git"
@@ -261,7 +263,7 @@
                             :signal nil
                             :stdout stdout
                             :stderr ""}))
-                5)))))]
+                5))))))]
     (try
       (doseq [index (range 9)]
         (.mkdirSync fs

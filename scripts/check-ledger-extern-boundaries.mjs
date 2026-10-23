@@ -25,14 +25,14 @@ function cljsFiles(directory) {
     if (entry.isDirectory()) {
       return cljsFiles(entryPath);
     }
-    return entry.isFile() && entry.name.endsWith(".cljs") ? [entryPath] : [];
+    return entry.isFile() && /\.clj[cs]$/.test(entry.name) ? [entryPath] : [];
   });
 }
 
 const violations = [];
 
 for (const packageName of packageNames) {
-  const sourceRoot = path.join(repositoryRoot, "packages", packageName, "src", "cljs");
+  const sourceRoot = path.join(repositoryRoot, "src", "cljs");
   if (!fs.existsSync(sourceRoot)) {
     violations.push(`${packageName}: source root does not exist`);
     continue;
